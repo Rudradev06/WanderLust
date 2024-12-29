@@ -1,0 +1,36 @@
+<% layout("/layouts/boilerplate") %>
+
+<style>
+  .loader {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 16px solid #d3cdcd;
+    border-top: 16px solid rgb(131, 113, 68);
+    animation: spin 2s linear infinite;
+    margin-left: 45%;
+  }
+
+  @keyframes spin {
+    0% {
+      rotate: 0deg;
+    }
+
+    100% {
+      rotate: 360deg;
+    }
+  }
+</style>
+<div class="row container text-center mt-4">
+  <div class="col">
+    <div class="">
+      <h2>You Are at The Home Page!</h2>
+    </div>
+  </div>
+</div>
+<div class="row container text-center mt-4">
+  <div class="col">
+    <h1>Loading...</h1>
+    <div class="loader mt-4"></div>
+  </div>
+</div>

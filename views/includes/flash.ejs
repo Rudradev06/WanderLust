@@ -1,0 +1,41 @@
+<% if ( success && success.length) { %>
+
+<div
+  class="alert alert-success d-flex align-items-center alert-dismissible fade show mt-3 col-6 offset-3"
+  role="alert"
+  style="height: 60px !important"
+>
+  <i
+    class="fa-solid fa-circle-check"
+    style="color: green; margin-right: 5px !important"
+  ></i>
+  <div><%= success %></div>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+</div>
+
+<% } %> <% if(error && error.length) { %>
+
+<div
+  class="alert alert-danger d-flex align-items-center alert-dismissible fade show mt-3 col-6 offset-3"
+  role="alert"
+  style="height: 60px !important"
+>
+  <i
+    class="fa-solid fa-circle-exclamation"
+    style="color: #f00; margin-right: 5px !important"
+  ></i>
+  <div><%= error %></div>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+</div>
+
+<% } %>

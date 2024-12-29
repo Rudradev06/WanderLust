@@ -1,0 +1,171 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(159, 221, 243);
+
+  padding-left: 1rem !important;
+}
+
+.navbar-nav {
+  font-size: 1.15rem;
+}
+
+.fa-compass {
+  color: #ff385c !important;
+  font-size: 2rem;
+  margin-right: 7px;
+}
+
+.nav-link {
+  color: #222 !important;
+  padding: 0.4rem 1rem !important;
+}
+
+.nav-link:hover {
+  /* opacity: 0.7; */
+  border: 1px solid #222 !important;
+  border-radius: 0.7rem;
+}
+
+.container {
+  flex: 1 !important;
+}
+/* Footer */
+.f-info {
+  height: 6rem;
+  background-color: rgb(170, 170, 170);
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.f-info > div {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.fa-brands {
+  color: #222;
+  padding: 0.5%;
+}
+
+.fa-brands:hover {
+  cursor: pointer;
+  color: rgb(96, 87, 76);
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222;
+  padding: 1%;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+  color: rgb(96, 87, 76);
+}
+
+/* Cards */
+.all-listings {
+  justify-content: space-evenly;
+  gap: 1rem !important;
+}
+
+.card {
+  border-radius: 1rem !important;
+  padding: 0 !important;
+}
+
+.index-cards {
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 19rem !important;
+  height: 26rem !important;
+  /* border: none !important; */
+}
+
+.index-cards:hover {
+  padding: 0.5rem !important;
+  box-shadow: 1px 1px 5px 1px#7e7c7c !important;
+}
+
+.index-cards a {
+  text-decoration: none;
+  color: #332f2f;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  height: 16rem;
+}
+
+.view-details-btn {
+  border: none !important;
+}
+
+/* Add New Listing */
+.add-new-listing {
+  margin: 1rem !important;
+}
+
+.add-btn {
+  background-color: #ff385c !important;
+  width: 100px;
+  border: none !important;
+}
+
+/* Edit Listing */
+.save-btn {
+  background-color: green !important;
+  border-radius: 0.5rem;
+  width: 100px;
+  border: none !important;
+}
+
+/* show-details */
+.show-img {
+  height: 30vh;
+}
+
+.show-details {
+  opacity: 1 !important;
+}
+.btns {
+  width: 50% !important;
+  display: flex;
+  justify-content: space-around;
+}
+.delete-btn {
+  background-color: red !important;
+  border: none !important;
+}
+
+strong {
+  font-weight: 500 !important;
+}
+
+hr {
+  background-color: #000000 !important;
+  height: 3px; /* Change thickness */
+  /* border: none; */
+}
+
+/* signup page */
+.signup-card {
+  padding: 1rem 1.5rem !important;
+  /* max-width: 50% !important; */
+}
+
+.signup-card:hover {
+  /* box-shadow: 0 0 0 1rem #88a6b5; */
+  box-shadow: 2px 2px 10px 5px rgba(131, 131, 194, 0.2);
+  border: 0.01rem solid rgba(0, 0, 0);
+}
