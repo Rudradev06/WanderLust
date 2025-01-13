@@ -1,6 +1,6 @@
-# MyAirbnb - Wanderlust
+# Wanderlust
 
-MyAirbnb is a web application inspired by Airbnb that allows users to list, explore, and review accommodations. The platform leverages Node.js, Express, and MongoDB to provide a seamless experience for travelers and property owners.
+Wanderlust is a web application inspired by Airbnb that allows users to list, explore, and review accommodations. The platform leverages Node.js, Express, and MongoDB to provide a seamless experience for travelers and property owners.
 
 ## Features
 
